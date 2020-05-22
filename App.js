@@ -34,12 +34,12 @@ const App: () => React$Node = () => {
           style={styles.scrollView}>
           <Header />
           <View style={styles.body}>
-            <View style={styles.sectionContainer}>
+            {/* <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
-            </View>
+            </View> */}
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Debug</Text>
               <Text style={styles.sectionDescription}>
